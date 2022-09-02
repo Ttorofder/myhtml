@@ -1,0 +1,64 @@
+.mainimage {
+    width: 100px;
+    border-radius: 40px;
+    float: left;
+   margin-right: 20px;
+    
+}
+.mainname {
+    font-weight: bold;
+    font-size: larger;
+    color: brown;
+}
+.n2
+{
+    margin-left: 100px;
+}
+
+.m2
+{
+    margin-left: 100px;
+    background-color: rgb(72, 0, 255);
+   
+}
+html{
+  font-size: 35px;  
+
+}
+
+body{
+    background: #000000;
+    
+color:#ffffff
+
+}
+a{
+    color: yellow;
+}
+a:visited{
+    color: rgb(0, 208, 255);
+}
+
+a:active, a:hover {
+    color: rgb(255, 0, 238);
+}
+table{
+    width: 50%;
+  
+}
+th{
+    color: red;
+}
+td{
+    color: aqua;
+}
+.mm
+{
+    margin-left: 30px;
+    border-radius: 50px;
+}
+.ma{
+margin-left: 50px;
+border-radius: 50px;
+height: 150px;
+}

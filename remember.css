@@ -1,0 +1,17 @@
+a{
+    color: yellow;
+}
+a:active, a:hover{
+    color: greenyellow;
+}
+a:visited{
+    color: pink;
+}
+html{
+    background: rgb(74, 1, 1);
+    color: aliceblue;
+
+}
+button{
+    color: rgb(255, 0, 230);
+}

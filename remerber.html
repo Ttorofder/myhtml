@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remember page</title>
+   <link rel="icon" href="images/—Pngtree—correct icon_4602219.png" type="image/x-icon">
+   <link rel="stylesheet" href="remember.css" type="text/css">   
+  
+
+</head>
+
+<body>
+
+    <header>
+        <!--header tag is added started from very first of body tag/here, ends before the 1st hr tag-->
+
+    <h1>hi there this is tasin</h1>
+    <h4>usuing navigation tag</h4>
+<!--if you have multiple navigation,its better to lable them for assist tecnology to have better read-->
+    <nav aria-lable="primary-navigation">
+      <ul>
+    <li><a href="#1st">Part 1</a></li>
+    <li><a href="#2nd">Part 2</a></li>
+  </ul>
+
+
+  </nav>
+ <!--say, we are adding an heading inside a nav element element,we can lonk to it like bellow-->
+
+  <nav aria-labelledby="primary-navigation">
+    <h2 id="primary-navigation">primary navigation</h2>
+    <ul>
+  <li><a href="#1st">Part 1</a></li>
+  <li><a href="#2nd">Part 2</a></li>
+</ul>
+</nav>
+  </header>
+ <main>
+  <hr>
+    <ol>
+    <p><li><a href="#1st">go one</a> </li></p>
+    <p><li><a href="#2nd">go onmw 2</a></li></p>
+</ol>
+    <h1>its the begining</h1>
+    <img src="/images/IMG_1766.JPG" alt="image" title="Tahsin torofder" height="100px">
+    <p> my website link is <a href="https://creativecommons.org/licenses/by/2.0/">here</a></p>
+    <p> my website link is <a href="https://creativecommons.org/licenses/by/2.0/"> <button> here </button></a></p>
+<hr>
+<section id="1st"> 
+<h2>the 1st part</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, optio nisi soluta odit alias facilis amet ipsa! Earum totam perferendis doloribus aspernatur! Maiores quo officiis reiciendis earum facere delectus ipsa!
+Unde error culpa tempora perspiciatis in quas aliquid iure. Ipsum laboriosam mollitia nemo reiciendis dignissimos iste! <br> Repellendus iusto repellat at ducimus? Commodi sapiente tenetur qui ipsum esse assumenda omnis temporibus.
+Cupiditate dolor, soluta placeat nulla blanditiis ea explicabo, dicta velit <br> quo suscipit neque porro nemo doloribus at, eligendi corporis nihil sed dolorem. Suscipit numquam molestias quisquam illum, itaque temporibus quae?</p>
+</section>
+
+<hr>
+<p>download my image from <a href="/images/IMG_1766.JPG" download="ths me"> here</a></p>
+<h3>make a list</h3>
+<ol>
+    <li>one banana</li>
+    <li>applwe</li>
+    <li>pinapple</li>
+</ol>
+<h3>make another list</h3>
+<ul>
+    <li>bat</li>
+    <li>ball</li>
+    <li>ok</li>
+</ul>
+<span style="background-color: pink;">this is whst is said</span>
+<p style="background-color: pink;"> whta is this</p>
+<h1 style="background-color: pink; ">Lets see</h1>
+<p><a href="tel:01757524122222">phone number</a></p>
+<p><a href="mailto:tdhgj@gmail.con">mail me</a></p>
+ <section id="2nd">
+    <h2>the 2nd part</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolorum est ipsa! Nobis voluptatibus amet repellendus eius minus unde aut? Recusandae libero inventore cumque veniam id itaque quae quis voluptate.
+    Expedita, ipsa sint. <br> Suscipit iure iste quod odit corporis dolorum unde facere accusamus obcaecati, a labore. Deleniti dolores ducimus repellendus quos dicta! Aliquam minima ipsum possimus. Perferendis eligendi accusantium quasi!</p>
+
+ </section>
+ <br>
+<hr>
+
+<h2>fill out form</h2>
+<form action="http://httpbin.org/get" method="get">
+  <fieldset>
+    <legend>Login info</legend>
+  <p>
+    <label for="fname">first Name</label>
+    <input type="text" name="fname" id="fname" autocomplete="on" autofocus required placeholder="inter first name">
+  </p>
+  <p>
+  <label for="username">User name</label> 
+  <input type="text" name="username" id="username" placeholder="input user name" autocomplete="on" required>
+</p>
+  <p>
+  <label for="password">password</label> 
+  <input type="password" name="password" id="password" placeholder="input user password" required>
+</p>
+<p>
+  <label for="phone">Phone number</label>
+  <input type="tel" name="phone" id="phone" required placeholder="222-222-2222" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+</p>
+<p>
+  <label for="Year">Scelect Year</label>
+  <input type="number" name="Year" id="Year" required min="1970" max="2022" step="5" value="2000" >
+</p>
+<label for="country">Your country</label>
+<select name="country" id="country" size="3" multiple>
+  <optgroup label="Asia">
+  <option value="bd">bd</option>
+  <option selected value="india">india</option>
+</optgroup>
+<optgroup label="Non-Asia">
+  <option value="iran">iran</option>
+  <option value="us">us</option>
+  <option value="Uk">uk</option>
+  <option value="other">other</option>
+</optgroup>
+</select>
+
+<p>
+  <label for="city">Your city</label>
+  <input type="text" name="city" id="city" list="city-list">
+  <datalist id="city-list">
+    <option value="dhaka">
+      <option value="barishal">
+      <option value="ctg">
+      <option value="tongi">
+      <option value="sulhet">
+  </datalist>
+</p>
+<p>
+  <textarea name="ok" id="ok" cols="30" rows="10"></textarea>
+</p>
+<p>
+<input type="submit" value="submit">
+</p>
+</fieldset>
+</form>
+ <hr>
+ <dl>
+    <dd style="color: green; " > <b>lsts make a table</b></dd>
+    <dt>Lorem bold ipsum dolor sit amet consectetur adipisicing elit. Velit rerum illum iure. Architecto nobis animi, cupiditate obcaecati, minima debitis tenetur amet ducimus incidunt reiciendis dignissimos iure velit voluptatum, hic sequi?  <br>
+    Enim omnis vel doloribus culpa vitae, reiciendis officiis, nobis vero temporibus repellat quasi iste ut neque cumque veniam, doloremque debitis voluptates molestias expedita! Maxime accusamus cumque consectetur. Assumenda, ducimus sint.</dt>
+    <dd>lsts make a table</dd>
+    <dt>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit rerum illum iure. Architecto nobis animi, cupiditate obcaecati, minima debitis tenetur amet ducimus incidunt reiciendis dignissimos iure velit voluptatum, hic sequi?  <br>
+    Enim omnis vel doloribus culpa vitae, reiciendis officiis, nobis vero temporibus repellat quasi iste ut neque cumque veniam, doloremque debitis voluptates molestias expedita! Maxime accusamus cumque consectetur. Assumenda, ducimus sint.</dt>
+ </dl>
+
+ <p>some time hsfdf <a href="https://www.youtube.com/watch?v=kUMe1FH4CHE" target="_blank" style="color:blue ;"><abber title="USA">Us </abber> </a> </p>
+ <a href="#">back to top</a>
+ 
+ <hr>
+ <h3>adding link in image</h3>
+ <a href="https://www.google.com" target="_blank"> <img src="/images/—Pngtree—correct icon_4602219.png" height="30px" alt="random"></a>
+
+ <a href="https://www.google.com" target="_blank"> <img src="/images/IMG_1766.JPG" height="100px" alt="ok" title="okkk"> </a>
+ <hr>
+
+ <nav>
+    <ul>
+  <li><a href="#sec1">Part 1</a></li>
+  <li><a href="#sec2">Part 2</a></li>
+</ul>
+</nav>
+<hr>
+<form action="http://httpbin.org/get" method="get">
+<p>
+<label for="userName">User name:</label>
+<input type="text" name="userName" id="userName" placeholder="type name" autocomplete="on" autofocus required>
+</p>
+<p>
+<label for="phone">number:</label>
+<input type="tel" name="phone" id="phone" placeholder="111-111-1111" autocomplete="on"  required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+</p>
+<p>
+  <lable for="birthyear">Year</lable>
+  <input type="number" name="birthyear" id="birthyear" min="1980" max="2022" step="1" value="2000">
+</p>
+<p>
+
+<label for="password">password</label>
+<input type="password" name="password" id="password" placeholder="inter pass" required>
+<br>
+<label for="country">Choose country</label>
+<select name="country" id="country">
+  <option value="bd" >bd</option>
+  <option value="cd" selected>cd</option>
+  <option value="dd">dd</option>
+</select>
+</p>
+<input type="submit" value="Submit">
+</form>
+
+
+</main>
+
+<footer>
+  <a href="#">back to top</a>
+  <a href="/1learn html.html">home page</a>
+</footer>
+</body>
+
+
+</html>
